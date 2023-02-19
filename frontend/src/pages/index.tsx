@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import { DrawerAppBar } from "src/components/DrawerAppBar";
+
 import styles from "src/styles/Home.module.css";
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <DrawerAppBar />
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
